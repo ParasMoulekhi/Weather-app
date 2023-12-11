@@ -10,6 +10,7 @@ body {
 }
 .card {
   width: 90%;
+  min-width: 320px;
   max-width: 470px;
   background: linear-gradient(135deg, #56ccf2, #2f80ed);
   color: #fff;
@@ -23,8 +24,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 .search input {
+  display: block;
   border: 0;
   outline: 0;
   background: #ebfffc;
@@ -36,13 +39,17 @@ body {
   margin-right: 16px;
   font-size: 18px;
 }
+
 .search button {
-  border: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
   outline: 0;
   background: #ebfffc;
   border-radius: 50%;
-  height: 60px;
-  width: 60px;
+  height: 100%;
+  width: 71px;
   cursor: pointer;
 }
 .search button img {
