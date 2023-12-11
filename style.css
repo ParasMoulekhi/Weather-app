@@ -49,8 +49,9 @@ body {
   background: #ebfffc;
   border-radius: 50%;
   height: 100%;
-  width: 71px;
+  width: 60px;
   cursor: pointer;
+  margin-right: 20px;
 }
 .search button img {
   width: 16px;
